@@ -18,5 +18,9 @@ Once the edit is made, make the script execultable and run it.
 cd /home/ted/posenet
 ./posenet_demo.sh
 ```
-The script will configure the container for you.  Once the build is complete, access the demo using a browser at http://localhost:1234
+The script will configure the container for you and push it into the local container registry.  Once the image is pushed and the script is complete, the demo can be run with with podman.
+```
+sudo podman run -name posenet_demo -it -p 1234:1234 posenet_demo
+```
+Access the demo by browsing to http://localhost:1234
 
