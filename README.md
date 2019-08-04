@@ -7,7 +7,7 @@ This script uses the Red Hat Univeral Base Image v7 (ubi7) NodeJS-8 image as the
 
 To create the container, edit the posenet_demo.sh file and change PATH_TO to your path.
 ```
-buildah copy $container '/PATH_TO_POSENETposenet/files/' '/opt/app-root/src/node_modules/@tensorflow-models/posenet'
+buildah copy $container '/PATH_TO_POSENET/files/' '/opt/app-root/src/node_modules/@tensorflow-models/posenet'
 ```
 would become 
 ```
