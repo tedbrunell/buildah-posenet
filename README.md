@@ -22,5 +22,5 @@ The script will configure the container for you and push it into the local conta
 ```
 sudo podman run -name posenet_demo -it -p 1234:1234 posenet_demo
 ```
-Access the demo by browsing to https://localhost:1234
+Access the demo by browsing to https://<POSENET_URL>:1234
 
