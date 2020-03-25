@@ -20,7 +20,7 @@ cd /home/ted/posenet
 ```
 The script will configure the container for you and push it into the local container registry.  Once the image is pushed and the script is complete, the demo can be run with with podman.
 ```
-sudo podman run -name posenet_demo -it -p 1234:1234 posenet_demo
+sudo podman run --name posenet_demo -it -p 1234:1234 posenet_demo
 ```
 Access the demo by browsing to http://localhost:1234
 
